@@ -38,5 +38,5 @@
 ## 학습 결과
 ![image](https://github.com/user-attachments/assets/b90cb7a1-945e-498e-bbdd-5460173fe1e7)
 
-[데이터셋 출처: Plantar Thermogram Database for the Study of Diabetic Foot Complications](https://github.com/user-attachments/assets/6647935d-90d8-4be6-b754-a71eb49e4278)
+[데이터셋 출처: Plantar Thermogram Database for the Study of Diabetic Foot Complications](https://ieee-dataport.org/open-access/plantar-thermogram-database-study-diabetic-foot-complications)
 
