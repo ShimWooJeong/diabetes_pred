@@ -20,9 +20,10 @@
 1. **온도기록도 데이터셋만 학습시킨 모델**: Logistic Regression & CNN
    - 온도기록도 단독으로 학습시켰을 때는 Logistic Regression으로 학습 정확도가 높았지만, Keras의 다중입력모델과 통합하기 어려워 단독으로 학습시킬 때는 Logistic Regression을 사용하고, 다중입력모델에서는 CNN을 사용해 학습시켰습니다.
 
-2. **열화상 이미지 데이터셋만 학습시킨 모델**: CNN (Convolutional, Pooling, Flatten, Dense 레이어를 사용하여 구성)
+2. **열화상 이미지 데이터셋만 학습시킨 모델**: CNN
+   - Convolutional, Pooling, Flatten, Dense 레이어를 사용하여 구성
 
-3. **두 데이터셋 모두 학습시킨 모델**: Keras 기반 다중입력모델
+4. **두 데이터셋 모두 학습시킨 모델**: Keras 기반 다중입력모델
    - 온도기록도와 이미지 데이터셋을 각각 CNN으로 모델을 구성한 후, 두 입력을 결합시켜 다중입력모델을 구성했습니다.
 
 ### 데이터 가공 과정
