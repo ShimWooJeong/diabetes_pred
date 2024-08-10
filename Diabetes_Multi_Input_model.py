@@ -9,7 +9,7 @@ from keras.preprocessing.image import ImageDataGenerator
 import matplotlib.pyplot as plt
 import natsort
 
-##주석은 최종 모델인 다중입력모델인 해당 파일에만 적었습니다
+##주석은 최종 모델인 다중입력모델 파일에만 적었습니다
 
 ##또 다양하고 반복적인 데이터 가공으로 인해서 데이터셋 파일이 여러 폴더에 중복되어 들어있습니다.
 ##가공하지 않은 원본 데이터가 들어있는 파일은 Control_Group, DM Group이고 모든 train과 test 데이터셋은 임의대로 나눴습니다(CG 41~45, DM 111~122)
