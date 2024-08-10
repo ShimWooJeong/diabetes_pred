@@ -100,7 +100,7 @@ image_pool2 = MaxPooling2D(2, 2)(image_conv2)
 image_flatten = Flatten()(image_pool2)
 image_dense = Dense(128, activation='relu')(image_flatten)
 
-#CSC와 이미지, 두 개의 입력을 결합
+#CSV와 이미지, 두 개의 입력을 결합
 combined = concatenate([csv_dense, image_dense])
 combined_dense = Dense(64, activation='relu')(combined)
 output = Dense(1, activation='sigmoid')(combined_dense)
